@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    line-height: 2;
+    /*overflow: hidden; */
+    text-align: center;
+}
+
+.container{
+
+}
+.intro-image{
+    background-attachment: fixed;
+    background-image: url(../images/img7.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro-image__text{
+    display: inline-block;
+    align-items: center;
+        height: 200px;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    font-size: 2rem;
+}
+.btn {
+    color: rgba(9, 247, 48, 0.993);
+    background-color: rgba(0, 4, 255, 0.822);
+    display: flex;
+    align-items: top;
+    justify-content: top;
+    height: 200px;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    font-size: 5rem;
+    display: inline-block;
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes moveInLeft {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+    80% {
+        transform: translate(50px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+}
+.btn a:hover{
+    transform: scale(1.5);
+}
+    
+}
+.intro-text{
+
+}
+.intro-text__textbox{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: -9rem;
+    background-color: #d2d78d;
+    height: 30vh;
+    text-align: center;
+    padding-top: 5rem;
+    margin-top: -5rem;
+    clip-path: polygon(50% 2%, 100% 0, 100% 81%, 87% 100%, 18% 100%, 0 80%, 0 0);
+}
+.heading-solid beige{
+
+}
+.text-solid{
+
+}
+.packaging-image{
+    
+}
+.packaging-image__text{
+    background-attachment: fixed;
+    background-image: url(../images/img8.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.packaging-text{
+
+}
+.packaging_text__textbox{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: -1rem;
+    background-color: #d2d78d;
+    height: 40vh;
+    text-align: center;
+    padding-top: 5rem;
+    margin-top: -6rem;
+ 
+}
+.heading-solid green{
+
+}
+.tutorials-image{
+    background-attachment: fixed;
+    background-image: url(../images/img9.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.tutorials-image__text{
+   
+
+}
+.footer{
+background-color: #d2d78d;
+}
+
